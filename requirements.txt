@@ -1,0 +1,7 @@
+streamlit
+pydantic
+pydantic-ai
+requests
+python-dotenv
+nest-asyncio
+groq
