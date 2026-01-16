@@ -1,4 +1,4 @@
-# 🌦️ Weather Assistant
+# 🌦️ Weather AI Assistant
 
 ![Weather Assistant Banner](weather_assistant.png)
 
