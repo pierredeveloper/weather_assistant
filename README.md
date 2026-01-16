@@ -1,6 +1,6 @@
 # 🌦️ Weather Assistant
 
-![Weather Assistant Banner](assets/weather_assistant.png)
+![Weather Assistant Banner](weather_assistant.png)
 
 A Python-based Weather Assistant that retrieves real-time weather information for any city using an external weather API.  
 The project is designed to be clean, modular, and beginner-friendly, while following best practices such as environment variable management and virtual environments.
