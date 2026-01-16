@@ -39,7 +39,7 @@ st.markdown("""
 </style>
 """, unsafe_allow_html=True)
 
-st.title("🌦️ AI Weather Assistant")
+st.title("🌦️ Weather Assistant")
 st.caption("Powered by Pydantic-AI, Groq LLaMA 3, and OpenWeatherMap")
 
 # --------------------------------------------------
