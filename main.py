@@ -34,7 +34,7 @@ st.markdown("""
 <style>
     .stTextInput > label { font-size: 20px; }
     .stMarkdown { font-size: 20px; }
-    h1 { font-size: 30px; }
+    h1 { font-size: 20px; }
     .stButton > button { font-size: 18px; height: 60px; }
 </style>
 """, unsafe_allow_html=True)
