@@ -40,7 +40,7 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 st.title("🌦️ Weather Assistant")
-st.caption("Powered by Pydantic-AI, Groq LLaMA 3, and OpenWeatherMap")
+#st.caption("Powered by Pydantic-AI, Groq LLaMA 3, and OpenWeatherMap")
 
 # --------------------------------------------------
 # Pydantic Output Schema
@@ -124,7 +124,7 @@ if st.button("Get Weather 🌤️"):
 # FOOTER
 # --------------------------------------------------
 st.divider()
-st.caption("Built with ❤️ using Streamlit & Pydantic-AI")
+#st.caption("Built with ❤️ using Streamlit & Pydantic-AI")
 
 
 
