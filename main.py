@@ -33,7 +33,7 @@ st.set_page_config(
 st.markdown("""
 <style>
     .stTextInput > label { font-size: 20px; }
-    .stMarkdown { font-size: 18px; }
+    .stMarkdown { font-size: 30px; }
     h1 { font-size: 48px; }
     .stButton > button { font-size: 18px; height: 60px; }
 </style>
