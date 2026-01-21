@@ -62,7 +62,7 @@ weather_agent = Agent(
     system_prompt=(
         "You are a friendly weather assistant. "
         "Always use the get_weather_forecast tool to get real-time weather data. "
-        "After presenting the weather, give 2–3 practical recommendations "
+        "After presenting the weather, give 3-4 practical recommendations "
         "(e.g., umbrella, hydration, clothing advice). "
         "Never invent weather data."
     ),
