@@ -40,7 +40,6 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 st.title("🌦️ Weather Assistant")
-#st.caption("Powered by Pydantic-AI, Groq LLaMA 3, and OpenWeatherMap")
 
 # --------------------------------------------------
 # Pydantic Output Schema
@@ -114,9 +113,20 @@ if st.button("Get Weather 🌤️"):
     else:
         with st.spinner("🔍 Fetching weather information..."):
             try:
+                # Get structured weather data
+                weather = get_weather_forecast(None, user_question)
+
+                # Run AI agent for natural explanation
                 result = weather_agent.run_sync(user_question)
-                st.success("✅ Current Weather")
+
+                # Show temperature directly in success message
+                st.success(
+                    f"✅ Current Weather: {weather.temperature_celsius}°C"
+                )
+
+                # Show AI-generated weather explanation + tips
                 st.markdown(result.output)
+
             except Exception as e:
                 st.error(f"❌ {str(e)}")
 
@@ -124,8 +134,6 @@ if st.button("Get Weather 🌤️"):
 # FOOTER
 # --------------------------------------------------
 st.divider()
-#st.caption("Built with ❤️ using Streamlit & Pydantic-AI")
-
 
 
 
