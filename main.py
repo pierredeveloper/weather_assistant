@@ -24,7 +24,7 @@ if not GROQ_API_KEY or not OPENWEATHER_API_KEY:
 # STREAMLIT PAGE CONFIG
 # --------------------------------------------------
 st.set_page_config(
-    page_title="🌦️ Weather Assistant",
+    page_title="🌦️ Weather",
     page_icon="🌤️",
     layout="centered",
 )
